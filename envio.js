@@ -6,8 +6,8 @@ function enviarEmail(){
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-            user: "leans.flavio@gmail.com",
-            pass: "fl4v10ls10"
+            user: "@gmail.com",
+            pass: ""
         },
         tls: { rejectUnauthorized: false }
       });
